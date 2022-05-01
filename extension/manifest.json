@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "SUMMIFY",
+    "version": "0.0.1",
+    "description": "Summarizes Text",
+
+        
+    "icons": {
+        "16":"TextSumLogo16.png",
+        "48":"TextSumLogo64.png",
+        "128":"TextSumLogo128.png"
+
+    },
+    
+    "action":{
+        "default_icon": "TextSumLogo128.png",
+        "default_popup":"popup.html"
+       
+    },
+   
+    "permissions": ["tabs"]
+
+    
+}
+

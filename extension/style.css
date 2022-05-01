@@ -1,0 +1,33 @@
+html {
+    overflow: hidden;
+  }
+  
+  body {
+    background-color: rgb(243, 247, 245);;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+  }
+  
+  h1 {
+    color: rgb(238, 168, 121);
+    font-size: 5em;
+    margin: 0.3em;
+  }
+  
+  h4 {
+    color: rgb(117, 94, 79);
+    font-size: 2em;
+    margin: 0.2em;
+    text-decoration-line: underline;
+  }
+  
+  p {
+    color: black;
+    font-size: 1.2em;
+    font-family: "Montserrat";
+    text-align: justify;
+  }

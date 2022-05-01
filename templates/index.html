@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEXT-SUMMARIZATION</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="body" ng-app="myApp" style="background-color: rgb(243, 247, 245);">
+    <header style="font-family:freestyle script;color:rgba(87, 151, 177, 0.911);font-size:50pt;text-align:center;color:rgb(238, 168, 121)">SUMMIFY </header>
+    <br>
+    <div class="wrapper" ng-controller="MyCtrl">
+	<!-- <h1 style="color:white;">SUMMARIZE YOUR TEXT</h1> -->
+<form name="form" action="http://127.0.0.1:5000/output"  method="POST">
+    <center>
+        <H4 style="position:-webkit-sticky;">ENTER YOUR TEXT</H4>
+        
+
+  <textarea style="background-color:rgb(241, 235, 227)" placeholder="Enter your  text here..." cols="100" rows="15" name="textarea" id="textarea"></textarea> 
+    <br>
+    <br>
+  <h5>OR</h5>
+  <br>
+    
+  <H4>USE URL</H4>
+  <textarea type="url" style="background-color: rgb(241, 235, 227);" placeholder="Enter your URL here..." name="url" id="url" cols="100" rows="2"> </textarea> 
+<br>
+<br>
+	<div class="button">
+        <div class="d-grid gap-2 col-2 mx-auto">
+	<input type="submit" class="btn btn-outline-dark" value="Summarize">
+</div>
+	</div>
+</center>
+</form>
+  </div>
+</div>
+<br><br>
+
+<body>
+</html>
+

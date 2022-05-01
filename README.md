@@ -1,2 +1,2 @@
 # Summify
-A chrome extension used for summarizing current viewing WebPages
+A chrome extension used for summarizing WebPages
